@@ -1,0 +1,382 @@
+<html>
+<head>
+    <title>Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0e8e6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #d0e8e6;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        .header {
+            text-align: center;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .header p {
+            margin: 5px 0;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #000;
+        }
+        .form-group input[type="radio"] {
+            width: auto;
+        }
+        .form-group .inline {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .form-group .inline input {
+            margin-right: 5px;
+        }
+        .form-group .inline label {
+            display: inline;
+        }
+        .form-group .small-input {
+            width: 30%;
+            display: inline-block;
+        }
+        .form-group .small-input input {
+            width: 100%;
+        }
+        .form-group .photo {
+            border: 1px solid #000;
+            width: 150px;
+            height: 200px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            line-height: 200px;
+            margin-left: 20px;
+        }
+        .form-group .photo img {
+            max-width: 100%;
+            max-height: 100%;
+            vertical-align: middle;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .table th, .table td {
+            border: 1px solid #000;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SOUTHEAST UNIVERSITY</h1>
+            <p>Campus Address: 252 Tejgaon I/A, Dhaka 1208, Bangladesh</p>
+            <p>Tel: +8802222660530-7 Ext: (121-124), +8802222666331</p>
+            <p>Reception Ext: 100, +8802222660532 (Ext. 101), +8802222663107</p>
+            <p>Web: www.seu.edu.bd, Facebook: facebook.com/seuofficialinfo</p>
+            <h2>APPLICATION FOR ADMISSION</h2>
+            <p>The candidate must enclose the following documents with this application form</p>
+            <p>1. Attested copies of all academic certificates & mark sheets.</p>
+            <p>2. Photocopies of NID/Birth Certificate/Passport and 4 copies photograph (passport size)</p>
+            <p>3. Original certificates & mark sheets must be presented at the time of admission.</p>
+        </div>
+        <div class="form-group">
+            <label>Code</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Student ID</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Please fill up the form in BLOCK LETTERS. Provide information exactly as appeared in your SSC/O' Level/equivalent certificate.</label>
+        </div>
+        <div class="form-group">
+            <label>Name of the Program:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Application for admission in</label>
+            <div class="inline">
+                <input type="radio" name="admission" value="Spring">
+                <label>Spring</label>
+            </div>
+            <div class="inline">
+                <input type="radio" name="admission" value="Summer">
+                <label>Summer</label>
+            </div>
+            <div class="inline">
+                <input type="radio" name="admission" value="Fall">
+                <label>Fall</label>
+            </div>
+            <div class="small-input">
+                <label>Year:</label>
+                <input type="text">
+            </div>
+        </div>
+        <div class="section-title">A. PERSONAL INFORMATION</div>
+        <div class="form-group">
+            <label>1. Name of the Student:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>2. Date of Birth:</label>
+            <div class="small-input">
+                <label>Day</label>
+                <input type="text">
+            </div>
+            <div class="small-input">
+                <label>Month</label>
+                <input type="text">
+            </div>
+            <div class="small-input">
+                <label>Year</label>
+                <input type="text">
+            </div>
+            <div class="small-input">
+                <label>Place of Birth</label>
+                <input type="text">
+            </div>
+            <div class="small-input">
+                <label>Citizenship/Nationality</label>
+                <input type="text">
+            </div>
+            <div class="small-input">
+                <label>NID/Birth Certificate/Passport Number</label>
+                <input type="text">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>3. Gender & Marital Status:</label>
+            <div class="inline">
+                <input type="radio" name="gender" value="Male">
+                <label>Male</label>
+            </div>
+            <div class="inline">
+                <input type="radio" name="gender" value="Female">
+                <label>Female</label>
+            </div>
+            <div class="inline">
+                <input type="radio" name="marital_status" value="Married">
+                <label>Married</label>
+            </div>
+            <div class="inline">
+                <input type="radio" name="marital_status" value="Single">
+                <label>Single</label>
+            </div>
+            <div class="small-input">
+                <label>Religion</label>
+                <input type="text">
+            </div>
+            <div class="small-input">
+                <label>Blood Group</label>
+                <input type="text">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>4. Father's Name:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Occupation:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Designation:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Tel/Mobile:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>E-mail:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>5. Mother's Name:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Occupation:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Designation:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Tel/Mobile:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>E-mail:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>6. Guardian's Name (if different from parents):</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Occupation:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Relationship:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Tel/Mobile:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>7. Permanent Address: Village/House no.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>P.O/Road no.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>P.S.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Dist.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>8. Present Address: Village/House no.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>P.O/Road no.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>P.S.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Dist.:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>9. Student's Tel/Mobile:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>E-mail:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>10. Monthly income of parents/guardian/self who will bear your educational expenses:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>11. Person to be notified in case of emergency:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Relationship:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Occupation:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Address:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Tel/Mobile:</label>
+            <input type="text">
+        </div>
+        <div class="section-title">B. EDUCATIONAL INFORMATION</div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name of the Institution</th>
+                    <th>Roll No.</th>
+                    <th>Division/GPA</th>
+                    <th>GPA (without 4th subject)</th>
+                    <th>Overall Grade</th>
+                    <th>Scale</th>
+                    <th>Group</th>
+                    <th>Board</th>
+                    <th>Passing Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name of the Institution</th>
+                    <th>Roll No.</th>
+                    <th>Registration No.</th>
+                    <th>Division/GPA</th>
+                    <th>GPA (without 4th subject)</th>
+                    <th>Overall Grade</th>
+                    <th>Scale</th>
+                    <th>Group</th>
+                    <th>Board</th>
+                    <th>Passing Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
